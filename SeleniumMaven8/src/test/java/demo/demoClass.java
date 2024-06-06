@@ -11,6 +11,7 @@ public void RecieveData()
 {
 	String URL = System.getProperty("url");
 	System.out.println(URL);
+	System.out.println("Sample test");
 	WebDriver driver = new ChromeDriver();
 	driver.get(URL);
 }
