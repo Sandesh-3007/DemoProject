@@ -13,6 +13,7 @@ public void RecieveData()
 	System.out.println(URL);
 	System.out.println("Sample test");
 	System.out.println("Sample test added");
+	System.out.println("Sample test added & ready to commit");
 	WebDriver driver = new ChromeDriver();
 	driver.get(URL);
 }
